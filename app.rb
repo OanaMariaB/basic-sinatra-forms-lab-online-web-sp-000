@@ -3,14 +3,14 @@ require 'sinatra/base'
 class App < Sinatra::Base
 
   get '/newteam' do
-<<<<<<< HEAD
+
      erb :newteam
   end
 
    post '/team' do
      erb :team
    end
-=======
+
    erb :newteam
   end
 
@@ -25,6 +25,6 @@ class App < Sinatra::Base
 
     erb :team
   end
->>>>>>> 4df55a9f7ed4ddfdd05eb99a6a83b1c597530606
+
 
 end
